@@ -1,6 +1,7 @@
 .Header{
     width: 100%;
-    height: 180px;
+    height:fit-content;
+    padding: 10px 0 20px 0;
 }
 .Logo{
     display: flex;
@@ -14,13 +15,45 @@
 }
 
 .Call{
+    position: relative;
+    width: max-content;
+    margin-left: 15px;
+}
+
+.Call:before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	bottom: 3px;
+	right: 3px;
+	background-color: #fff;
+	z-index: 1;
+    border-radius: 3px;
+	
+}
+.Call:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to right, #008FFF,#444444 );
+	z-index: -1;
+	border-radius: 3px;
+}
+
+.call_button{
+z-index: 999;
+position: relative;
 display: flex;
 flex-direction: row;
 font-size: 30px;
 align-items:center;
 cursor: pointer;
 height: 30px;
-margin-left: 25px;
+padding: 3px 10px 3px 10px
 }
 .Call p{
     color: transparent;
@@ -35,7 +68,7 @@ margin-left: 25px;
 .Menu{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     font-size: 25px;
     font-weight: 500;
     width: 100%;
@@ -48,10 +81,11 @@ hr{
     height: 35px;
     width: 2px;
     background: #008FFF;
+    position:relative;
 }
 .Menu .line{
-    width: 50px;
-    padding-left: 10px;
+    width: 75px;
+    padding-left: 33px;
 }
 .Menu .MenuBar{
     display: flex;

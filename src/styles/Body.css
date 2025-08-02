@@ -1,0 +1,84 @@
+ .one{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background: #44444430;
+   margin: 0;
+   padding: 0;
+}
+ .image{
+   margin: 70px;
+}
+.image img{
+ max-width: 100%;
+ height: auto;
+ display: block;
+}
+
+.one .informations{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0 50px 0 50px
+}
+.informations p{
+   width: 70%;
+   font-size: 25px;
+   padding: 15px 0 15px 0;
+}
+
+.one .block_button {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 50px;
+}
+
+.block_button .Call_button{
+   background: #008FFF;
+   border-radius: 10px;
+   padding: 0 20px 0 20px;
+   cursor: pointer;
+   max-height: 65px;
+}
+.Call_button h1{
+   font-size: 30px;
+   color: #c2c2c2;
+}
+.block_button .more{
+   width: 50%;
+}
+.more p{
+   font-size: 30px;
+   width: 100%;
+   text-align: end;
+   cursor: pointer;
+}
+
+.two{
+   display: flex;
+   flex-direction: row;
+   margin: 100px 0;
+}
+
+.two .informations{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-width: 50%;
+   padding-left: 50px;
+}
+
+.two .image{
+   margin: 0 20px 70px 20px;
+}
+
+.two .block_info
+{
+   display: flex;
+   flex-direction: row;
+}
+
+
+

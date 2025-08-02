@@ -1,4 +1,18 @@
 
+* {
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+   -webkit-tap-highlight-color: transparent;
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   /* font-weight: 500; */
+   /* font-style: normal; */
+   font-variation-settings:
+      "wdth" 100;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
 h1{
 color: rgb(68, 68, 68);
 font-family: Impact;
@@ -10,6 +24,6 @@ letter-spacing: 0px;
 text-align: left;
 }
 p{
-   color: rgb(26, 26, 26); 
-   font-family: serif;
+   color: #1A1A1A; 
+   font-family: Arial, Helvetica, sans-serif;
 }
