@@ -82,6 +82,7 @@ hr{
     width: 2px;
     background: #008FFF;
     position:relative;
+    border-radius: 10px;
 }
 .Menu .line{
     width: 75px;

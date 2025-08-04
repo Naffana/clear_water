@@ -1,18 +1,20 @@
- .one{
+ .one,.three{
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    background: #44444430;
    margin: 0;
    padding: 0;
+   height: 100vh;
 }
  .image{
-   margin: 70px;
+   align-content: center;
 }
-.image img{
- max-width: 100%;
+ img{
+ max-width: 75%;
  height: auto;
  display: block;
+ margin: auto;
 }
 
 .one .informations{
@@ -21,6 +23,7 @@
    flex-direction: column;
    margin: 0 50px 0 50px
 }
+
 .informations p{
    width: 70%;
    font-size: 25px;
@@ -59,7 +62,8 @@
 .two{
    display: flex;
    flex-direction: row;
-   margin: 100px 0;
+   align-items: center;
+   height: 100vh;
 }
 
 .two .informations{
@@ -71,14 +75,96 @@
 }
 
 .two .image{
-   margin: 0 20px 70px 20px;
+  /* margin: 0 20px 70px 20px; */
 }
 
 .two .block_info
 {
    display: flex;
    flex-direction: row;
+   padding-bottom: 30px;
 }
+
+.block_info h1{
+   font-size: 36px;
+}
+.block_info p{
+   font-size: 20px;
+   padding: 0;
+   width: 60%;
+}
+.block_info svg
+{
+margin-right: 20px;
+}
+
+.three{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+}
+.three .img{
+width: 75%;
+}
+.three img{
+   border-radius: 15px;
+}
+
+.three .team{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   padding-top: 5px;
+   width: 30%;
+}
+
+.team h1{
+   text-align: center;
+   width: 180px;
+   font-size: 30px;
+   line-height: normal;
+}
+.three hr{
+width: 180px;
+height: 5px;
+margin: 10px 0;
+}
+
+.three .informations{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 60%;
+
+}
+.three .info{
+   align-content: center;
+   width: 60%;
+}
+
+.three p{
+   width: 90%;
+   font-size: 25px;
+   padding: 0 10px 10px 10px;
+}
+
+.three .team p{
+   width:180px;
+   font-size: 20px;
+   text-align: center;
+   opacity: 70%;
+}
+
+
+a{
+   color: #008FFF;
+   font-size: 25px;
+   padding-right: 5px;
+
+}
+
+
 
 
 
