@@ -115,7 +115,7 @@ const BodySection3 = () => {
             предложить индивидуальный подход к каждому клиенту.
           </p>
           <div className='call_button'>
-            <a href="#">Позвонить</a>
+            <a href="#section2">Позвонить</a>
             <svg width="21.875000" height="21.875000" viewBox="0 0 21.875 21.875" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
 	            <path id="矢量 13" d="M7.29 0L7.29 2.91L16.9 2.91L0 19.81L2.05 21.87L18.95 4.97L18.95 14.58L21.87 14.58L21.87 0L7.29 0Z" fill="#008FFF" fill-opacity="1.000000" fill-rule="evenodd"/>
             </svg>
