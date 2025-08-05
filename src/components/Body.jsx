@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import "../styles/Body.css";
 import img1 from "../resources/Img1.png";
