@@ -3,7 +3,7 @@ import "../../styles/Module.css";
 
 const Repair = () => {
   return (
-    <div className='module'>repair</div>
+    <div className='module repairs'>repair</div>
   )
 }
 

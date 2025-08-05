@@ -1,13 +1,107 @@
 .module
 {   position:fixed;
-    width:500px;
-    height:600px;
-    margin:-300px auto auto -250px;
-    top:50%;
-    left:50%;
     text-align:center;
-    visibility:hidden; 
+    /* visibility:hidden;  */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+
 }
-/* .contacts{
-    visibility:visible;
-} */
+.backgr{
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 4;
+}
+.install{
+    visibility: hidden;
+}
+.repairs{
+     visibility: hidden;
+}
+.servicess{
+     visibility: hidden;
+}
+
+.contacts{
+    position: static;
+    z-index: 6;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff ;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exit{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.exit p{
+    padding: 15px 20px 0 0;
+    font-size: 20px;
+    color: #008FFF;
+    width: min-content;
+    cursor: pointer;
+}
+.Contact_header p{
+opacity: 0.7;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 320px;
+    font-size: 30px;
+    background-color: #008FFF;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.phone p{
+    color: #fff;
+    padding: 5px;
+}
+.contacts hr{
+    width: 90%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 30px 0;
+
+}
+.contacts .information, .geo, .time{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    text-align: start;
+}
+
+.geo{
+    width: 60%;
+}
+.geo p, .geo h2, .time p, .time h2{
+padding-left: 10px;
+}
+.Contact_footer{
+    margin-top: 20px;
+    background-color: #0091ff6b;
+    color: #0077ff;
+    width: 100%;
+    height: 30%;
+    border-radius:0 0 20px  20px;
+    align-content: center;
+}
+
+
+

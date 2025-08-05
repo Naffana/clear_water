@@ -3,7 +3,7 @@ import "../../styles/Module.css";
 
 const Installation = () => {
   return (
-    <div className='module'>installation</div>
+    <div className='module install'>installation</div>
   )
 }
 

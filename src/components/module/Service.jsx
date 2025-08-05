@@ -3,7 +3,7 @@ import "../../styles/Module.css";
 
 const Service = () => {
   return (
-    <div className='module'>Service</div>
+    <div className='module servicess'>Service</div>
   )
 }
 

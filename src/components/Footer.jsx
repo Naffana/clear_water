@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/Footer.css";
 
-const Footer = () => {
+const Footer = ({onOpen}) => {
   return (
     <>
     <div className='footer'>
@@ -25,7 +25,7 @@ const Footer = () => {
           </div>
           <div className="group2">
             <p>Ремонт колодцев</p>
-            <p>контактные данные</p>
+            <p onClick={onOpen}>Контактные данные</p>
           </div>
         </div>
       </div>

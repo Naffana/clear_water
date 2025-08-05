@@ -4,7 +4,7 @@ import img1 from "../resources/Img1.png";
 import img2 from "../resources/Img2.png";
 import img3 from "../resources/Img3.png";
 
-const BodySection3 = () => {
+const BodySection3 = ({onOpen}) => {
   return (
   <>
     <section className='one'>
@@ -15,7 +15,7 @@ const BodySection3 = () => {
         </p>
         <div className='block_button'>
           <div className="Call_button">
-          <h1>Позвонить</h1>
+          <h1 onClick={onOpen}>Позвонить</h1>
           </div>
 
           <div className="more">
@@ -115,7 +115,7 @@ const BodySection3 = () => {
             предложить индивидуальный подход к каждому клиенту.
           </p>
           <div className='call_button'>
-            <a href="#section2">Позвонить</a>
+            <a onClick={onOpen}>Позвонить</a>
             <svg width="21.875000" height="21.875000" viewBox="0 0 21.875 21.875" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
 	            <path id="矢量 13" d="M7.29 0L7.29 2.91L16.9 2.91L0 19.81L2.05 21.87L18.95 4.97L18.95 14.58L21.87 14.58L21.87 0L7.29 0Z" fill="#008FFF" fill-opacity="1.000000" fill-rule="evenodd"/>
             </svg>
