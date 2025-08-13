@@ -20,7 +20,7 @@ const BodySection3 = ({onOpen}) => {
           </div>
 
           <div className="more">
-          <a href='#section2'>Узнать больше</a>
+          <a href='#section2'><p>Узнать больше</p></a>
           </div>
         </div>
       </div>

@@ -1,3 +1,7 @@
+
+
+
+
 .Header{
     width: 100%;
     height:fit-content;
@@ -96,4 +100,60 @@ hr{
 .MenuBar p{
     cursor: pointer;
 }
+.MenuButton{
+    visibility:hidden;
+        position:absolute;
+        display: block;
 
+        width: 100%;
+    }
+@media (max-width: 950px) {
+    .Header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+       
+    }
+    .Menu{
+        flex-direction: column;
+    }
+    .MenuBar{
+        flex-direction: column;
+        align-items: center;
+    }
+    hr{
+        visibility: hidden;
+        /* width: 200px;
+        height: 5px; */
+    }
+    .Button_menu{
+        visibility:visible;
+    }
+    .Logo{
+        width: 100%;
+        display:flex;
+        justify-content:center;
+        margin-bottom: 10px;
+    }
+    .Logo h1{
+        font-size: clamp(30px, 5vw, 40px);
+    }
+   
+    .Button_menu{
+        cursor: pointer;
+    }
+    .Menu{
+         max-height: 0;
+        opacity: 0;
+        margin: 0;
+        transition: max-height .7s ease, opacity .7s ease,margin .7s;
+    }
+    .Menu.Open{
+    max-height: 300px; /* Достаточно, чтобы влезли ссылки */
+    opacity: 1;
+    margin-bottom: 50px;
+    }
+
+}

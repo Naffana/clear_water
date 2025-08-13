@@ -10,11 +10,12 @@
    width:220px;
    padding-left: 60px;
    opacity: 70%;
-   font-size: 14px;
+   font-size: clamp(8px, 1vw, 14px);
 }
-.footer h1{
-   font-size: 34px;
+.footer h1, .footer a{
+   font-size: clamp(25px, 2.5vw, 35px);
    text-align: center;
+   color: rgb(68, 68, 68);
 }
 .group{
    display: flex;
@@ -22,7 +23,7 @@
 }
 .group p{
    opacity: 70%;
-   font-size: 18px;
+   font-size: clamp(10px, 1.2vw, 18px);
    padding-bottom: 5px;
    cursor: pointer;
 }

@@ -89,6 +89,7 @@ opacity: 0.7;
 
 .geo{
     width: 60%;
+    padding-left: 10px;
 }
 .geo p, .geo h2, .time p, .time h2{
 padding-left: 10px;

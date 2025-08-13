@@ -26,7 +26,7 @@
 
 .informations p{
    width: 70%;
-   font-size: 25px;
+   font-size: clamp(15px, 1.5vw, 25px);
    padding: 15px 0 15px 0;
 }
 
@@ -46,17 +46,26 @@
    max-height: 65px;
 }
 .Call_button h1{
-   font-size: 30px;
+   font-size: clamp(20px, 2vw, 30px);
    color: #c2c2c2;
+   padding: 5px;
 }
 .block_button .more{
    width: 50%;
 }
-.more p{
-   font-size: 30px;
+.more a{
    width: 100%;
-   text-align: end;
+   align-items: center;
    cursor: pointer;
+}
+.more p{ 
+   font-size: clamp(10px, 2vw, 25px);
+   min-width: 150px;
+   text-align: end;
+}
+.more{
+   display: flex;
+   justify-content: center;
 }
 
 .two{
@@ -71,6 +80,7 @@
    flex-direction: column;
    justify-content: space-between;
    min-width: 50%;
+   max-height: 100vh;
    padding-left: 50px;
 }
 
@@ -81,15 +91,13 @@
    display: flex;
    flex-direction: row;
    padding-bottom: 30px;
+   /* max-height: 100vh; */
 }
 
-.block_info h1{
-   font-size: 36px;
-}
 .block_info p{
-   font-size: 20px;
+   /* font-size: 20px; */
    padding: 0;
-   width: 60%;
+   /* width: 60%; */
 }
 .block_info svg
 {
@@ -99,6 +107,7 @@ margin-right: 20px;
 .three{
    display: flex;
    flex-direction: column;
+   justify-content:space-around;
    align-items: center;
    height: 100vh;
 }
@@ -120,7 +129,7 @@ width: 75%;
 .team h1{
    text-align: center;
    width: 180px;
-   font-size: 30px;
+   font-size: clamp(20px, 2.4vw, 30px);
    line-height: normal;
 }
 .three hr{
@@ -134,7 +143,7 @@ margin: 10px 0;
    flex-direction: row;
    justify-content: space-between;
    width: 60%;
-
+   max-height: 100vh;
 }
 .three .info{
    align-content: center;
@@ -143,13 +152,13 @@ margin: 10px 0;
 
 .three p{
    width: 90%;
-   font-size: 25px;
+   font-size: clamp(15px, 1.5vw, 25px);
    padding: 0 10px 10px 10px;
 }
 
 .three .team p{
    width:180px;
-   font-size: 20px;
+   font-size: clamp(10px, 1.2vw, 20px);
    text-align: center;
    opacity: 70%;
 }
@@ -157,12 +166,22 @@ margin: 10px 0;
 
 a{
    color: #008FFF;
-   font-size: 25px;
+   font-size: clamp(15px, 1.6vw, 25px);
    padding-right: 5px;
 
 }
 
 
-
+@media (max-width: 950px){
+   .two,.three{
+   flex-direction: column;
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+}
+.one{
+   flex-direction: column-reverse;
+}
+}
 
 
