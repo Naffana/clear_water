@@ -150,9 +150,9 @@ hr{
         transition: max-height .7s ease, opacity .7s ease,margin .7s;
     }
     .Menu.Open{
-    max-height: 300px; /* Достаточно, чтобы влезли ссылки */
+    max-height: 300px; 
     opacity: 1;
-    margin-bottom: 50px;
+    margin: 20px 0 30px 0;
     }
 
 }
