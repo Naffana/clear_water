@@ -34,3 +34,12 @@
 margin-top: 20px;
 text-align: center;
 }
+
+@media (max-width: 950px) {
+   .footer{
+   flex-direction: column;
+   }
+   .under p{
+      font-size: 10px;
+   }
+}

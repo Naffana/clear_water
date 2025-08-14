@@ -12,8 +12,8 @@
 }
 .backgr{
     position: absolute;
-    width: 100vw;
-    height: 100vw;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0,0,0,0.5);
     z-index: 4;
 }
@@ -104,5 +104,65 @@ padding-left: 10px;
     align-content: center;
 }
 
+@media (max-width: 950px) {
+    
+.contacts{
+    width: 90vw;
+    height: 70vh; 
+}
+
+.Contact_header h1{
+    font-size: 40px
+}
+hr{
+    display: none;
+}
+}
+
+@media (max-width: 500px) {
+  .module  .information{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+.Contact_header h1{
+    font-size: 25px
+}
+.Contact_header p{
+    font-size: 12px;
+}
+.Contact_footer h2{
+    font-size: 20px;
+}
+.phone{
+    font-size: 20px;
+    width: 230px;
+    margin: 0;
+}
+.phone svg{
+    width: 20px;
+    height: 20px;
+}
+.geo svg{
+    height:30px;
+    width:30px;
+}
+.time svg{
+   height: 25px;
+    width: 25px;
+}
+.geo,.time{
+   padding: 0;
+   width: 75%;
+
+}
+
+.geo h2, .geo p{
+    padding:0 0 0 15px;
+}
+.geo{
+    margin-bottom: 15px;
+}
+}
 
 
