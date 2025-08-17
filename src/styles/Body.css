@@ -175,6 +175,9 @@ a{
 
 
 @media (max-width: 700px){
+   h1{
+      font-weight: 700;
+   }
    .two,.three{
    flex-direction: column;
    margin: 20px 0 70px 0;
@@ -236,7 +239,7 @@ a{
    margin-top: 25px;
 }
 .team h1{
-   width: 120px;
+   width: 140px;
 }
 
 }
