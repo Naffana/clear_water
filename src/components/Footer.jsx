@@ -17,7 +17,7 @@ const Footer = ({onOpen}) => {
           <p>Качественный сервис по ремонту и обслуживанию колодцев</p>
         </div>
       </div>
-      <div className='services'>
+      {/* <div className='services'>
         <h1>Услуги</h1>
         <div className="group">
           <div className="group1">
@@ -29,7 +29,7 @@ const Footer = ({onOpen}) => {
             <p onClick={onOpen}>Контактные данные</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
     <div className='under'>
         <p>© 2025 Чистые Воды </p>

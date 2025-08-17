@@ -21,7 +21,7 @@
    display: flex;
    justify-content: center;
    flex-direction: column;
-   margin: 0 50px 0 50px
+   margin: 0 50px 0 50px;
 }
 
 .informations p{
@@ -62,6 +62,7 @@
    font-size: clamp(10px, 2vw, 25px);
    min-width: 150px;
    text-align: end;
+   text-wrap: nowrap;
 }
 .more{
    display: flex;
@@ -148,6 +149,7 @@ margin: 10px 0;
 .three .info{
    align-content: center;
    width: 60%;
+   font-style: italic;
 }
 
 .three p{
@@ -172,16 +174,71 @@ a{
 }
 
 
-@media (max-width: 950px){
+@media (max-width: 700px){
    .two,.three{
    flex-direction: column;
-   margin: 0;
+   margin: 20px 0 70px 0;
    padding: 0;
-   height: 100vh;
+   height: max-content;
 }
 .one{
    flex-direction: column-reverse;
+    height: max-content;
+   padding-bottom: 20px;
 }
+.one img{
+   padding: 20px 0;
+}
+.one .more p{
+   font-size: clamp(10px, 4vw, 25px);
+}
+.two .informations{
+   padding: 0;
+   margin: 0 20px;
+}
+.two .info p{
+   width: 100%;
+   
+}
+.two .block_info{
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+.block_info svg{
+   width: 50px;
+   height: 50px;
+   margin: 10px 0;
+}
+
+.three .informations{
+   flex-direction: column;
+   width: 100%;
+   align-items: center;
+}
+
+.three{
+   margin-bottom: 0;
+}
+.three .team{
+   margin: 20px 0;
+}
+.three .info{
+   width: 300px;
+   
+}
+.three .info svg{
+   width: 13px;
+   height: 13px;
+}
+.three img{
+   max-width: 100%;
+   margin-top: 25px;
+}
+.team h1{
+   width: 120px;
+}
+
 }
 
 
