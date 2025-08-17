@@ -1,14 +1,14 @@
 import React from 'react'
 import "../../styles/Module.css";
-const Contacts = ( { isOpen, onClose}) => {
-   if (!isOpen) return null;
+const Contacts = ( { isOpenContacts, onCloseContacts}) => {
+   if (!isOpenContacts) return null;
 
   return (
-    <div  className='module' onClick={e => e.target.className === 'backgr' && onClose()}>
+    <div  className='module' onClick={e => e.target.className === 'backgr' && onCloseContacts()}>
       <div className="backgr">
       </div>
       <div className="contacts">
-      <div className="exit"><p onClick={onClose}>X</p></div>
+      <div className="exit"><p onClick={onCloseContacts}>X</p></div>
       <div className="Contact_header">
         <h1>Получить консультацию</h1>
         <p>Звоните в любое время - мы работаем ежедневно</p>

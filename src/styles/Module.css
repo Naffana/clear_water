@@ -17,16 +17,6 @@
     background-color: rgba(0,0,0,0.5);
     z-index: 4;
 }
-.install{
-    visibility: hidden;
-}
-.repairs{
-     visibility: hidden;
-}
-.servicess{
-     visibility: hidden;
-}
-
 .contacts{
     position: static;
     z-index: 6;
@@ -102,6 +92,47 @@ padding-left: 10px;
     height: 30%;
     border-radius:0 0 20px  20px;
     align-content: center;
+}
+
+.moduleInf{
+    position: static;
+    z-index: 6;
+    width: 400px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff ;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: space-between;
+}
+.moduleInf .exit{
+    margin-bottom: -40px;
+}
+.price{
+    background-color: #008FFF;
+    width: max-content;
+    height: 30px;
+    color: #fff;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 7px;
+}
+.list {
+  list-style-type: disc;   
+  color: #007bff;          
+  padding-left: 20px; 
+  align-items: start;     
+}
+
+.list li {
+  margin-bottom: 8px;      
+  font-weight: bold; 
+  text-align: start;     
+}
+.moduleInf p{
+    margin: 20px 0;
 }
 
 @media (max-width: 950px) {
