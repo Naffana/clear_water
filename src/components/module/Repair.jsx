@@ -25,7 +25,7 @@ const Repair = ({ isOpenRepair, onCloseRepair}) => {
       <li>Восстановление гидроизоляции</li>
     </ul>
     <div className="price">
-      <h2>Цена ~ от 9999 бел.руб.</h2>
+      <h2>Цена ~ от 65 бел.руб.</h2>
     </div>
     </div>
     </div>

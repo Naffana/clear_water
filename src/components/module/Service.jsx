@@ -25,7 +25,7 @@ const Service = ({ isOpenService, onCloseService}) => {
       <li>Профилактический осмотр</li>
     </ul>
     <div className="price">
-      <h2>Цена ~ от 9999 бел.руб.</h2>
+      <h2>Цена ~ от 45 бел.руб.</h2>
     </div>
     </div>
     </div>

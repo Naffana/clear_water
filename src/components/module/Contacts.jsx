@@ -17,7 +17,7 @@ const Contacts = ( { isOpenContacts, onCloseContacts}) => {
         <svg width="30.000000" height="30.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
 	        <path id="矢量 19" d="M47.25 34.38C43.83 34.38 40.52 33.83 37.44 32.83C36.47 32.5 35.38 32.75 34.63 33.5L30.27 38.97C22.41 35.22 15.05 28.13 11.13 20L16.55 15.38C17.3 14.61 17.52 13.52 17.22 12.55C16.19 9.47 15.66 6.16 15.66 2.75C15.66 1.25 14.41 0 12.91 0L3.3 0C1.8 0 0 0.66 0 2.75C0 28.55 21.47 50 47.25 50C49.22 50 50 48.25 50 46.72L50 37.13C50 35.63 48.75 34.38 47.25 34.38Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
         </svg>
-        <p>+375 (29) 333-33-33</p>
+        <p>+375 (25) 669-15-18</p>
       </div>
       <hr />
       <div className="information">
