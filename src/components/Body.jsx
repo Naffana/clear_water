@@ -1,9 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import "../styles/Body.css";
-import img1 from "../resources/Img1.png";
-import img2 from "../resources/Img2.png";
-import img3 from "../resources/Img3.png";
+import img1 from "../resources/Img1.webp";
+import img2 from "../resources/Img2.webp";
+import img3 from "../resources/Img3.webp";
 
 const BodySection3 = ({onOpenContact,onOpenRepair,onOpenInstall,onOpenService}) => {
   return (
@@ -26,12 +26,12 @@ const BodySection3 = ({onOpenContact,onOpenRepair,onOpenInstall,onOpenService}) 
       </div>
 
       <div className="image">
-        <img src = {img1} alt="" />
+        <img src = {img1} sizes='309x364' alt="" />
       </div>  
     </section>
     <section id='section2' className='two'>
       <div className="image">
-        <img src = {img2} alt="" />
+        <img src = {img2} sizes='309x332' alt="" />
       </div> 
 
       <div className="informations">
@@ -92,7 +92,7 @@ const BodySection3 = ({onOpenContact,onOpenRepair,onOpenInstall,onOpenService}) 
     </section>
     <section className='three'>
       <div className="img">
-        <img src={img3} alt=''/>
+        <img src={img3} sizes='309x125' alt=''/>
       </div>
       <div className='informations'>
         <div className="team">
