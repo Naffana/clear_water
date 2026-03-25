@@ -154,6 +154,8 @@ margin: 10px 0;
    align-content: center;
    width: 60%;
    font-style: italic;
+   font-size: smaller;
+   color: rgb(50, 50, 50);
 }
 
 .three p{
@@ -227,6 +229,7 @@ a{
 .three{
    margin-bottom: 0;
 }
+
 .three .team{
    margin: 20px 0;
 }
